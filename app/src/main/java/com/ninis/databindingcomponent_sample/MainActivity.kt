@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
-        Log.d("NINIS", "onClick Call!")
         Toast.makeText(this, "Clicked", Toast.LENGTH_SHORT).show()
     }
 }
